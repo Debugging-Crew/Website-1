@@ -1,0 +1,44 @@
+body {
+    background-color:white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo {
+    width: 300px;
+    height: 90px;
+    text-align: center;
+    line-height: 100px;
+}
+
+a {
+    color: #ffb727;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color:goldenrod;
+    text-decoration: none;
+  }
+
+navbar {
+    display: flex;
+    gap: 15%; 
+    align-items: center;
+    background-color:black;
+}
+h1,h3{
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
